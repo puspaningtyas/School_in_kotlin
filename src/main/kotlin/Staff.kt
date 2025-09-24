@@ -1,4 +1,3 @@
-class Staff {
-    val jabatan: String = ""
-    val NIP: String = ""
+class Staff(val jabatan: String = "", val NIP: String = "") {
+
 }
