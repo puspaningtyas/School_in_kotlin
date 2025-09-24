@@ -1,2 +1,3 @@
-open class Subject(var name: String) {
+open class Subject(var namaSubject: String) {
+
 }
