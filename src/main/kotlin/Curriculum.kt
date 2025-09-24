@@ -1,3 +1,4 @@
-class Curriculum (
+class Curriculum {
     val subjectList: List<Subject>
-)
+
+}
