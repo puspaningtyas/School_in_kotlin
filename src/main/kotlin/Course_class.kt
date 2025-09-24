@@ -1,2 +1,0 @@
-class Course_class {
-}
