@@ -1,4 +1,5 @@
 class Student(
     name: String,
-    age: Int
+    age: Int,
+    gender: String
 )
