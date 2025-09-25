@@ -1,8 +1,8 @@
 data class Student(val studentName: String)
 
 class StudentOrganisation(
-    val name: String,
-    val advisor: String
+    var name: String,
+    var advisor: String
 ) {
     private val leaders: MutableList<Student> = mutableListOf()
 
