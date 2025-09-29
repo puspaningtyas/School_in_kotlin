@@ -5,4 +5,9 @@ class StudentOrganisation {
         fun addLeader(student: Student) {
             leaders.add(student)
         }
+
+        fun showLeaders() {
+            if (leaders.isEmpty()) {
+                println("Belum ada leader di organisasi ini.")
+            }
     }
