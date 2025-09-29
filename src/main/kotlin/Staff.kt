@@ -1,3 +1,3 @@
-class Staff {
+class Staff: Person() {
 
 }
