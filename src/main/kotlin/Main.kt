@@ -1,5 +1,5 @@
-fun main(args:Array<String>){
-    println("Hello Kotlin")
-    println("this is school model")
-
+fun main() {
+    val room = Room()
+    room.chairList.add(Chair(1, "plastic"))
+    println(room.chairList)
 }
