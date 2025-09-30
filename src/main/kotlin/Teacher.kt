@@ -1,2 +1,3 @@
-class Teacher {
-}
+class Teacher(
+    val name: String
+)
