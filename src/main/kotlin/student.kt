@@ -1,4 +1,4 @@
-class Student(
+class student(
     name: String?,
     address: String?,
     val studentId: String?,
