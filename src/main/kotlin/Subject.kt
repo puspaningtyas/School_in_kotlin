@@ -1,18 +1,13 @@
-class Subject {
-}
-// Class Subject
 class Subject(
-    val id: String,        // Kode mata kuliah, contoh: "MAT101"
-    val name: String,      // Nama mata kuliah, contoh: "Matematika Dasar"
-    val credit: Int,       // Jumlah SKS
-    val description: String? = null  // Deskripsi opsional
+    val id: String,
+    val name: String,
+    val sks: Int,
+    val description: String? = null
 ) {
-
-    // Method untuk menampilkan informasi Subject
     fun printInfo() {
         println("Kode: $id")
         println("Nama: $name")
-        println("SKS: $credit")
+        println("SKS: $sks")
         if (description != null) {
             println("Deskripsi: $description")
         }
