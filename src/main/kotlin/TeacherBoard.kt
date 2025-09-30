@@ -1,15 +1,4 @@
 class TeacherBoard {
-    open class Person(
-        val name: String,
-        val age: Int
-    )
-
-    class Teacher(
-        name: String,
-        age: Int,
-        val subject: String
-    ) : Person(name, age)
-
     class TeacherBoard(
         val teacherList: MutableList<Teacher> = mutableListOf(),
         var leader: Teacher? = null
@@ -33,7 +22,8 @@ class TeacherBoard {
 
         fun showTeachers() {
             println("Daftar Guru di TeacherBoard:")
-            teacherList.forEach { println("- ${it.name}, mengajar ${it.subject}") }
+            teacherList.forEach { println("- ${it.name}, umur ${it.age}, gender ${it.gender}") }
+
         }
     }
 
