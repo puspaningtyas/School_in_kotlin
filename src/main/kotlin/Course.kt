@@ -20,7 +20,8 @@ class Course(
     }
 
     fun showCourseInfo() {
-        println("Mata Kuliah: $subject")
+        println("Mata Kuliah: ${subject.name}")
+
 
         println("Daftar Guru:")
         if (teacherList.isEmpty()) println("- (Belum ada guru)")

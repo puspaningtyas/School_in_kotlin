@@ -1,5 +1,4 @@
-class TeacherBoard {
-    class TeacherBoard(
+class TeacherBoard(
         val teacherList: MutableList<Teacher> = mutableListOf(),
         var leader: Teacher? = null
     ) {
@@ -27,4 +26,3 @@ class TeacherBoard {
         }
     }
 
-}

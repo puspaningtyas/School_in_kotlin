@@ -19,7 +19,6 @@ class Room {
         chairList.remove(chair)
     }
 
-    // Assign staff
     fun assignStaff(staff: Staff) {
         csStaff = staff
         println("Staff ${staff.name} ditugaskan ke Room ini.")
