@@ -4,6 +4,8 @@ class Subject(
     val sks: Int,
     val description: String? = null
 ) {
+
+
     fun printInfo() {
         println("Kode: $id")
         println("Nama: $name")
