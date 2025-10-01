@@ -1,3 +1,6 @@
-class Teacher(name:String, age: Int, gender:String) : Person(name, age, gender) {
-
-}
+class Teacher(
+    override val name: String,
+    override val age: Int,
+    override val gender: String,
+    val subject: String
+) : Person(name, age, gender)

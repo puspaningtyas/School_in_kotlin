@@ -1,8 +1,8 @@
-class Staff (
-    name: String,
-    id: String,
+class Staff(
+    override val name: String,
+    override val age: Int,
+    override val gender: String,
     var position: String
-) : person(name,id){
-    var assignedRoom: Room? = null
-    var management: Management? = null
+) : Person(name, age, gender) {
+
 }
